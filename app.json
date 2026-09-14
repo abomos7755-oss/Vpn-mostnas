@@ -1,15 +1,32 @@
 {
   "expo": {
     "name": "SpeedVPN",
-    "slug": "speedvpn-app",
+    "slug": "SpeedVPN",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0d1117"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
-      "package": "com.speedvpn.app",
       "adaptiveIcon": {
-        "backgroundColor": "#0f172a"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0d1117"
+      },
+      "package": "com.speedvpn.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eff9ab4e-425d-48a8-afff-b59efefec9d0"
       }
     }
   }
