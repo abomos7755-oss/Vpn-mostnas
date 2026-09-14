@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "SpeedVPN",
+    "slug": "speedvpn-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.speedvpn.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0f172a"
+      }
+    }
+  }
+}
